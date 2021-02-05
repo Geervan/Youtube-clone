@@ -9,7 +9,7 @@ export default ({ video }) => {
 
   return (
     <React.Fragment>
-      <Paper elevation={6} style={{ height: "50%" }}>
+      <Paper elevation={6} style={{ height: "10%" }}>
         <iframe
           frameBorder="0"
           height="100%"

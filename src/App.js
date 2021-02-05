@@ -31,8 +31,8 @@ export default () => {
     const { data: { items: videos } } = await youtube.get("search", {
       params: {
         part: "snippet",
-        maxResults: 5,
-        key: 'AIzaSyAp7jquVugM1CRYymAE0EzIy6cIBLU-zLk' ,
+        maxResults: 20,
+        key: 'AIzaSyDRn8wawc5dcBem8UHONc2t7VIKhFLxNZg' ,
         q: searchTerm,
       }
     });
